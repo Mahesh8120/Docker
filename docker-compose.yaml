@@ -55,7 +55,7 @@ services:
     - cart
   payment:
     build: ./payment
-    image: jmaheshjonnalagadda/payment:v1
+    image: maheshjonnalagadda/payment:v1
     container_name: payment
     depends_on:
     - rabbitmq
